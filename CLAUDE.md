@@ -4,6 +4,25 @@ This is a Next.js 14+ project with Tailwind CSS. You're helping a **non-develope
 
 ---
 
+## IMPORTANT: Use Your Skills
+
+You have specialized skills loaded in `.claude/skills/`. **Use them constantly:**
+
+| Skill | When to Use |
+|-------|-------------|
+| **documentation-writer** | After EVERY code change - update SITE.md immediately |
+| **react-nextjs-expert** | When writing any React/Next.js code |
+| **frontend-design** | When creating any visual component or page |
+| **react-best-practices** | When optimizing performance or reviewing code |
+
+**Workflow for every task:**
+1. Use `frontend-design` to plan the visual approach
+2. Use `react-nextjs-expert` for proper React/Next.js patterns
+3. Use `react-best-practices` for performance optimization
+4. Use `documentation-writer` to update SITE.md after changes
+
+---
+
 ## CRITICAL: Maintain Documentation
 
 **You MUST keep documentation updated.** This is essential for non-technical users who need to understand their project.
@@ -56,20 +75,23 @@ public/           # Images and static files
 ## Rules for Building
 
 ### DO:
-- ✅ Edit `app/page.tsx` for the homepage
-- ✅ Use Tailwind CSS classes for ALL styling
-- ✅ Create a `components/` folder for reusable pieces
-- ✅ Put images in `public/` folder
-- ✅ Update `SITE.md` after every change
-- ✅ Explain what you did in simple terms
-- ✅ Keep the code clean and organized
+- Use `frontend-design` skill for visual decisions
+- Use `react-nextjs-expert` skill for code patterns
+- Edit `app/page.tsx` for the homepage
+- Use Tailwind CSS classes for ALL styling
+- Create a `components/` folder for reusable pieces
+- Put images in `public/` folder
+- Update `SITE.md` after every change (use `documentation-writer` skill)
+- Explain what you did in simple terms
+- Keep the code clean and organized
 
 ### DON'T:
-- ❌ NEVER create `.html` files - this is React/Next.js
-- ❌ NEVER create separate `.css` files - use Tailwind
-- ❌ NEVER use `<script>` tags - this is React
-- ❌ NEVER leave the user confused about what changed
-- ❌ NEVER use technical jargon without explaining it
+- NEVER create `.html` files - this is React/Next.js
+- NEVER create separate `.css` files - use Tailwind
+- NEVER use `<script>` tags - this is React
+- NEVER leave the user confused about what changed
+- NEVER use technical jargon without explaining it
+- NEVER skip updating SITE.md
 
 ---
 
@@ -87,10 +109,11 @@ Each folder in `app/` becomes a page:
 
 If the user asks for an "About" page:
 
-1. Create `app/about/page.tsx`
-2. Add the content
-3. **Update `SITE.md`** to document the new page
-4. Tell the user: "I created an About page. You can see it by going to /about in the preview."
+1. Use `frontend-design` skill to plan the visual approach
+2. Create `app/about/page.tsx` using `react-nextjs-expert` patterns
+3. Add the content with proper Tailwind styling
+4. **Update `SITE.md`** using `documentation-writer` skill
+5. Tell the user: "I created an About page. You can see it by going to /about in the preview."
 
 ---
 
@@ -120,17 +143,19 @@ export default function Home() {
 
 ## After Every Task
 
-1. ✅ Make the requested changes
-2. ✅ Update `SITE.md` with what changed
-3. ✅ Tell the user what you did in plain English
-4. ✅ Let them know how to see the changes (preview auto-updates)
+1. Make the requested changes (use appropriate skills)
+2. Update `SITE.md` with what changed (use `documentation-writer` skill)
+3. Tell the user what you did in plain English
+4. Let them know how to see the changes (preview auto-updates)
 
 ---
 
 ## Remember
 
 The user is NOT a developer. They're using MarOS to build a website without coding knowledge. Your job is to:
-1. Build what they ask for
+1. Build what they ask for (using your skills)
 2. Keep everything documented so they understand their site
 3. Explain things simply
 4. Make them feel confident about their project
+
+**Always use your skills. They make you better at this job.**
