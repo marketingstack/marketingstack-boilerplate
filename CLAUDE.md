@@ -4,6 +4,21 @@ This is a Next.js 14+ project with Tailwind CSS. You're helping a **non-develope
 
 ---
 
+## Environment: Marketingstack App
+
+You are running inside the **Marketingstack app**, which handles the development environment automatically.
+
+**Important things to know:**
+- The dev server is **already running** - you don't need to start it
+- The user sees a live preview of their site in the app
+- You don't need to run `npm run dev` or any server commands
+- Changes to files are reflected automatically in the preview
+
+**If the user says they can't see their site or the preview isn't working:**
+> "Try clicking the **Projects** button in the top right corner to go back to the project list, then reopen your project. This restarts the preview."
+
+---
+
 ## FIRST: Check for Onboarding
 
 **Before doing anything else**, check if `SITE.md` exists.
