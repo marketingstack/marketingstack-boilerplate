@@ -17,7 +17,7 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: "Ship Studio",
-  description: "Build marketing sites with Claude Code. No coding required.",
+  description: "How professionals build with AI. No coding required.",
 };
 
 export default function RootLayout({

@@ -11,7 +11,7 @@ export default function Home() {
             Ship Studio
           </h1>
           <p className="text-lg text-[var(--muted)]">
-            Build marketing sites with Claude Code. Just describe what you want.
+            How professionals build with AI. Just describe what you want.
           </p>
         </header>
 
@@ -30,7 +30,7 @@ export default function Home() {
                   Start a conversation
                 </h3>
                 <p className="text-[var(--muted)]">
-                  Just type what you want to build. &quot;Create a landing page for my coffee shop&quot; or &quot;I need a portfolio site.&quot;
+                  Just type what you want to build. A landing page, a web app, a portfolio — anything.
                 </p>
               </div>
             </div>
@@ -40,10 +40,10 @@ export default function Home() {
               </div>
               <div>
                 <h3 className="font-semibold text-[var(--foreground)]">
-                  I&apos;ll build it
+                  AI builds it
                 </h3>
                 <p className="text-[var(--muted)]">
-                  Claude handles all the code. You&apos;ll see the site come together in real-time.
+                  Your AI handles the code. Watch your project come together in real-time.
                 </p>
               </div>
             </div>
@@ -98,11 +98,11 @@ export default function Home() {
           <div className="flex flex-wrap gap-3">
             {[
               "Landing pages",
-              "Marketing sites",
+              "Web apps",
               "Portfolios",
               "Company websites",
-              "Product pages",
-              "Coming soon pages",
+              "Dashboards",
+              "SaaS products",
               "Event sites",
               "Personal sites",
             ].map((item) => (
@@ -115,7 +115,7 @@ export default function Home() {
             ))}
           </div>
           <p className="mt-4 text-[var(--muted)]">
-            All without writing a single line of code.
+            All built with AI, at professional quality.
           </p>
         </section>
 
@@ -125,7 +125,7 @@ export default function Home() {
             Ready to start?
           </h2>
           <p className="opacity-80">
-            Just describe what you want to build. I&apos;ll take it from there.
+            Just describe what you want to build. Your AI takes it from there.
           </p>
         </section>
       </main>
